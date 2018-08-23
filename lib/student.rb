@@ -10,6 +10,6 @@ class Student < User
   end
 
   def knowledge
-    self.knowledge
+    return self.knowledge
   end
 end
